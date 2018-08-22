@@ -22,3 +22,6 @@ else
 > $ python2.7 test.py "test_path"
 
 The predicted results will be in "test_path/Results"
+
+##### License
+This project is licensed under the terms of the MIT license.
