@@ -23,5 +23,17 @@ else
 
 The predicted results will be in "test_path/Results"
 
+### Citation
+If you use this code for your research, please cite:
+
+```
+@inproceedings{adiga2018fpdmnet,
+  title={FPD-M-net: Fingerprint Image Denoising and Inpainting Using M-Net Based Convolutional Neural Networks},
+  author={Adiga, Sukesh V and Sivaswamy, Jayanthi},
+  booktitle={arXiv preprint arXiv:1812.10191},
+  year={2018},
+}
+```
+
 ##### License
 This project is licensed under the terms of the MIT license.
