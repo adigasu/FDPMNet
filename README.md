@@ -16,12 +16,13 @@ Also, this code should be compatible with Python versions 2.7-3.5. (tested in py
 
 ### Example
 if Cuda enabled
-
-> $ CUDA_VISIBLE_DEVICES=0 python2.7 test.py "test_path"
-
+```
+CUDA_VISIBLE_DEVICES=0 python2.7 test.py "test_path"
+```
 else
-
-> $ python2.7 test.py "test_path"
+```
+python2.7 test.py "test_path"
+```
 
 The predicted results will be in "test_path/Results"
 
@@ -32,8 +33,10 @@ If you use this code for your research, please cite:
 @inproceedings{adiga2018fpdmnet,
   title={FPD-M-net: Fingerprint Image Denoising and Inpainting Using M-Net Based Convolutional Neural Networks},
   author={Adiga, Sukesh V and Sivaswamy, Jayanthi},
-  booktitle={arXiv preprint arXiv:1812.10191},
+  booktitle={Fingerprint Inpainting and Denoising Challenges, ECCV workshop},
+  pages={51--61},
   year={2018},
+  publisher={Springer}
 }
 ```
 
